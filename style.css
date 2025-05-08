@@ -19,25 +19,22 @@ nav {
     display: flex;
     justify-content: center;
     background: #daa520;
-    position: fixed;
+    position: sticky;
     top: 80px;
     width: 100%;
     z-index: 999;
 }
 
 nav a {
-    color: #fff8dc;
-    padding: 14px 20px;
+    margin-right: 15px;
     text-decoration: none;
-    transition: background 0.3s;
-    position: fixed;
-    width: 100%;
+    color: #fff8dc;
 }
 
 nav a:hover {
     background: #b8860b;
-    position: fixed;
-    width: 100%;
+    margin-right: 15px;
+    text-decoration: none;
 }
 
 main {
