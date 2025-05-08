@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    position: sticky;
+    position: fixed;
     top: 0;
     background: #b8860b; /* dark goldenrod */
     color: #fff8dc; /* light golden */
@@ -16,6 +16,7 @@ header {
 }
 
 nav {
+    position: fixed;
     display: flex;
     justify-content: center;
     background: #daa520; /* goldenrod */
