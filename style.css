@@ -1,76 +1,122 @@
+/* Base styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f9e79f; /* Soft golden yellow background */
-    color: #4a3c1a; /* Dark brown for text for better readability */
+    background: #f9e79f; /* Soft golden yellow */
+    color: #4a3c1a; /* Dark brown text */
+    line-height: 1.6;
 }
 
+/* Header styles */
 header {
     background: #d4ac0d; /* Rich golden yellow */
-    color: #fff; /* White for text contrast */
-    text-align: left;
+    color: #fff;
     padding: 20px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
+header .logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+header .logo p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+}
+
+/* Navigation styles */
 nav {
+    background: #b7950b; /* Muted golden yellow */
     display: flex;
     justify-content: center;
-    background: #b7950b; /* Muted golden yellow for nav */
-    width: 100%;
+    flex-wrap: wrap;
     position: fixed;
-    top: 80px;
-    left: 0;
+    top: 100px; /* Positioned below header */
+    width: 100%;
     z-index: 999;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-nav a {
-    color: #fff; /* White for nav links */
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    color: #fff;
     padding: 14px 20px;
     text-decoration: none;
     font-weight: bold;
-    display: inline-block;
+    display: block;
     transition: background 0.3s, color 0.3s;
+    text-align: center;
 }
 
-nav a:hover {
-    background: #d4ac0d; /* Rich golden yellow hover effect */
-    color: #fff; /* Ensure text remains white */
+.nav-links a:hover {
+    background: #d4ac0d; /* Richer golden hover */
+    color: #fff;
     border-radius: 5px;
 }
 
+/* Main content */
 main {
     max-width: 1000px;
-    margin: 160px auto 20px auto;
+    margin: 180px auto 80px; /* Space for fixed header/nav & footer */
     padding: 20px;
-    background: #f7dc6f; /* Pale golden yellow for content background */
+    background: #f7dc6f; /* Pale golden yellow */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    color: #4a3c1a; /* Dark brown for text */
+    border-radius: 10px;
 }
 
+/* Section titles */
 h2 {
-    color: #d4ac0d; /* Rich golden yellow for headings */
+    color: #d4ac0d;
+    margin-top: 0;
 }
 
+/* Section subtitles */
+h3 {
+    margin-top: 0;
+    color: #b7950b;
+}
+
+/* General links */
 a {
-    color: #b7950b; /* Muted golden yellow for links */
+    color: #b7950b;
     text-decoration: underline;
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #d4ac0d; /* Rich golden yellow hover effect */
+    color: #d4ac0d;
 }
 
+/* List styling */
+ul {
+    padding-left: 20px;
+}
+
+/* Footer */
 footer {
-    background: #d4ac0d; /* Rich golden yellow for footer */
-    color: #fff; /* White for footer text */
+    background: #d4ac0d;
+    color: #fff;
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -78,4 +124,26 @@ footer {
     bottom: 0;
     z-index: 1000;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 0.9rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    nav {
+        top: 120px;
+    }
+    main {
+        margin: 220px 15px 100px 15px;
+        padding: 15px;
+    }
+    header .logo h1 {
+        font-size: 1.5rem;
+    }
+    header .logo p {
+        font-size: 0.9rem;
+    }
+    .nav-links a {
+        padding: 12px 15px;
+        font-size: 0.9rem;
+    }
 }
