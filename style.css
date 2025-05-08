@@ -3,25 +3,24 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f9e79f; /* Soft golden yellow */
-    color: #4a3c1a; /* Dark brown text */
+    background: #f9e79f;
+    color: #4a3c1a;
     line-height: 1.6;
 }
 
-/* Header styles */
+/* Sticky header with nav below */
 header {
-    background: #d4ac0d; /* Rich golden yellow */
+    background: #d4ac0d;
     color: #fff;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    position: fixed;
-    width: 100%;
+    position: sticky; /* make it stick on scroll */
     top: 0;
     z-index: 1000;
+}
+
+header .logo {
+    text-align: center;
 }
 
 header .logo h1 {
@@ -30,21 +29,17 @@ header .logo h1 {
 }
 
 header .logo p {
-    margin: 5px 0 0;
+    margin: 5px 0 15px 0;
     font-size: 1rem;
 }
 
-/* Navigation styles */
+/* Horizontal nav links inside header */
 nav {
-    background: #b7950b; /* Muted golden yellow */
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    position: fixed;
-    top: 100px; /* Positioned below header */
-    width: 100%;
-    z-index: 999;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: #b7950b;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .nav-links {
@@ -52,7 +47,7 @@ nav {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* wraps nicely on small screens */
 }
 
 .nav-links li {
@@ -70,7 +65,7 @@ nav {
 }
 
 .nav-links a:hover {
-    background: #d4ac0d; /* Richer golden hover */
+    background: #d4ac0d;
     color: #fff;
     border-radius: 5px;
 }
@@ -78,39 +73,12 @@ nav {
 /* Main content */
 main {
     max-width: 1000px;
-    margin: 180px auto 80px; /* Space for fixed header/nav & footer */
+    margin: 40px auto 80px;
     padding: 20px;
-    background: #f7dc6f; /* Pale golden yellow */
+    background: #f7dc6f;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-}
-
-/* Section titles */
-h2 {
-    color: #d4ac0d;
-    margin-top: 0;
-}
-
-/* Section subtitles */
-h3 {
-    margin-top: 0;
-    color: #b7950b;
-}
-
-/* General links */
-a {
-    color: #b7950b;
-    text-decoration: underline;
-    transition: color 0.3s;
-}
-
-a:hover {
-    color: #d4ac0d;
-}
-
-/* List styling */
-ul {
-    padding-left: 20px;
+    color: #4a3c1a;
 }
 
 /* Footer */
@@ -127,15 +95,8 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Responsive tweaks */
+/* Responsive */
 @media (max-width: 768px) {
-    nav {
-        top: 120px;
-    }
-    main {
-        margin: 220px 15px 100px 15px;
-        padding: 15px;
-    }
     header .logo h1 {
         font-size: 1.5rem;
     }
