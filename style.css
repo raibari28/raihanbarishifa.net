@@ -20,7 +20,9 @@ nav {
     justify-content: center;
     background: #daa520;
     position: fixed;
+    top: 80px;
     width: 100%;
+    z-index: 999;
 }
 
 nav a {
@@ -40,10 +42,10 @@ nav a:hover {
 
 main {
     max-width: 1000px;
-    margin: 20px auto;
+    margin: 160px auto 20px auto;
     padding: 20px;
-    background: #fffaf0; /* floral white */
-    box-shadow: 0 0 10px rgba(184, 134, 11, 0.3);
+    background: #fffaf0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
