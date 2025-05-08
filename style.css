@@ -4,34 +4,25 @@ body {
     padding: 0;
     background: #fff8dc; /* light golden background */
     color: #333;
-    text-align: justify; /* Justify all text in the body */
 }
 
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #b8860b; /* dark goldenrod */
-    color: #fff8dc; /* light golden */
-    text-align: center; /* Center text in the header */
+    background: #b8860b;
+    color: #fff8dc;
+    text-align: center;
     padding: 20px;
-    z-index: 1000; /* ensures it stays on top */
+    position: fixed;
 }
 
 nav {
-    position: fixed;
-    top: 80px; /* adjust based on header's height */
-    left: 0;
-    width: 100%;
     display: flex;
     justify-content: center;
-    background: #daa520; /* goldenrod */
-    z-index: 999; /* slightly below the header */
+    background: #daa520;
+    position: fixed;
 }
 
 nav a {
-    color: #fff8dc; /* light golden */
+    color: #fff8dc;
     padding: 14px 20px;
     text-decoration: none;
     transition: background 0.3s;
@@ -43,16 +34,14 @@ nav a:hover {
 
 main {
     max-width: 1000px;
-    margin: 140px auto 20px; /* Adjust for header and nav */
+    margin: 20px auto;
     padding: 20px;
     background: #fffaf0; /* floral white */
     box-shadow: 0 0 10px rgba(184, 134, 11, 0.3);
-    text-align: justify; /* Justify text in the main content */
 }
 
 h2 {
     color: #b8860b;
-    text-align: center; /* Center align headers */
 }
 
 a {
@@ -66,7 +55,7 @@ a:hover {
 footer {
     background: #b8860b; /* dark goldenrod */
     color: #fff8dc;
-    text-align: center; /* Center align footer content */
+    text-align: center;
     padding: 10px;
     position: fixed;
     width: 100%;
