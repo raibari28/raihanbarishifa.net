@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f0e68c; /* Darker light golden background */
+    background: #e6c84c; /* Darker golden yellow background */
 }
 
 header {
-    background: #daa520; /* Dark goldenrod */
-    color: #fffaf0; /* Light cream for text */
+    background: #c49a1c; /* Darker golden yellow */
+    color: #fff8dc; /* Very light cream for text */
     text-align: left;
     padding: 20px;
     position: fixed;
@@ -19,7 +19,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background: #b8860b; /* Dark dull golden yellow for nav */
+    background: #a77f0a; /* Darker and dull golden yellow for nav */
     position: sticky;
     top: 80px;
     width: 100%;
@@ -28,14 +28,14 @@ nav {
 }
 
 nav a {
-    color: #fffaf0; /* Light cream for nav links */
+    color: #fff8dc; /* Very light cream for nav links */
     padding: 14px 20px;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:hover {
-    background: #daa520; /* Dark goldenrod hover effect */
+    background: #c49a1c; /* Darker golden yellow hover effect */
     border-radius: 5px;
 }
 
@@ -43,25 +43,25 @@ main {
     max-width: 1000px;
     margin: 160px auto 20px auto;
     padding: 20px;
-    background: #fafad2; /* Darker very light golden yellow */
+    background: #f2daa4; /* Slightly darker pale golden yellow */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #daa520; /* Dark goldenrod for headings */
+    color: #c49a1c; /* Darker golden yellow for headings */
 }
 
 a {
-    color: #b8860b; /* Dark dull golden yellow for links */
+    color: #a77f0a; /* Darker dull golden yellow for links */
 }
 
 a:hover {
-    color: #daa520; /* Dark goldenrod hover effect */
+    color: #c49a1c; /* Darker golden yellow hover effect */
 }
 
 footer {
-    background: #daa520; /* Dark goldenrod for footer */
-    color: #fffaf0; /* Light cream for footer text */
+    background: #c49a1c; /* Darker golden yellow for footer */
+    color: #fff8dc; /* Very light cream for footer text */
     text-align: center;
     padding: 10px;
     position: fixed;
