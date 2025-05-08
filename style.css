@@ -12,6 +12,7 @@ header {
     text-align: center;
     padding: 20px;
     position: fixed;
+    width: 100%;
 }
 
 nav {
@@ -19,6 +20,7 @@ nav {
     justify-content: center;
     background: #daa520;
     position: fixed;
+    width: 100%;
 }
 
 nav a {
@@ -53,7 +55,7 @@ a:hover {
 }
 
 footer {
-    background: #b8860b; /* dark goldenrod */
+    background: #b8860b;
     color: #fff8dc;
     text-align: center;
     padding: 10px;
