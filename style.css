@@ -7,34 +7,31 @@ body {
 }
 
 header {
-    background: #b8860b;
-    color: #fff8dc;
-    text-align: center;
-    padding: 20px;
-    position: fixed;
-    width: 100%;
+  position: sticky;
+  top: 0; /* Sticks to the top of the viewport */
+  z-index: 1000; /* Ensure it stays above other elements */
+  background-color: white; /* Adjust background color if necessary */
+  padding: 10px;
+  border-bottom: 1px solid #ddd; /* Optional: Adds a bottom border for separation */
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    background: #daa520;
-    position: sticky;
-    top: 80px;
-    width: 100%;
-    z-index: 999;
+  position: sticky;
+  top: 50px;
+  z-index: 999;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
 }
 
 nav a {
-    margin-right: 15px;
-    text-decoration: none;
-    color: #fff8dc;
+  margin-right: 15px;
+  text-decoration: none;
+  color: #007bff;
 }
 
 nav a:hover {
-    background: #b8860b;
-    margin-right: 15px;
-    text-decoration: none;
+  text-decoration: underline; /* Optional: Underline links on hover */
 }
 
 main {
