@@ -4,6 +4,7 @@ body {
     padding: 0;
     background: #fff8dc; /* light golden background */
     color: #333;
+    text-align: justify; /* Justify all text in the body */
 }
 
 header {
@@ -13,7 +14,7 @@ header {
     width: 100%;
     background: #b8860b; /* dark goldenrod */
     color: #fff8dc; /* light golden */
-    text-align: center;
+    text-align: center; /* Center text in the header */
     padding: 20px;
     z-index: 1000; /* ensures it stays on top */
 }
@@ -46,10 +47,12 @@ main {
     padding: 20px;
     background: #fffaf0; /* floral white */
     box-shadow: 0 0 10px rgba(184, 134, 11, 0.3);
+    text-align: justify; /* Justify text in the main content */
 }
 
 h2 {
     color: #b8860b;
+    text-align: center; /* Center align headers */
 }
 
 a {
@@ -63,7 +66,7 @@ a:hover {
 footer {
     background: #b8860b; /* dark goldenrod */
     color: #fff8dc;
-    text-align: center;
+    text-align: center; /* Center align footer content */
     padding: 10px;
     position: fixed;
     width: 100%;
