@@ -2,24 +2,26 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #e6c84c; /* Darker golden yellow background */
+    background: #f9e79f; /* Soft golden yellow background */
+    color: #4a3c1a; /* Dark brown for text for better readability */
 }
 
 header {
-    background: #c49a1c; /* Darker golden yellow */
-    color: #fff8dc; /* Very light cream for text */
+    background: #d4ac0d; /* Rich golden yellow */
+    color: #fff; /* White for text contrast */
     text-align: left;
     padding: 20px;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 nav {
     display: flex;
     justify-content: center;
-    background: #a77f0a; /* Darker and dull golden yellow for nav */
+    background: #b7950b; /* Muted golden yellow for nav */
     width: 100%;
     position: fixed;
     top: 80px;
@@ -29,15 +31,17 @@ nav {
 }
 
 nav a {
-    color: #fff8dc; /* Very light cream for nav links */
+    color: #fff; /* White for nav links */
     padding: 14px 20px;
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
+    transition: background 0.3s, color 0.3s;
 }
 
 nav a:hover {
-    background: #c49a1c; /* Darker golden yellow hover effect */
+    background: #d4ac0d; /* Rich golden yellow hover effect */
+    color: #fff; /* Ensure text remains white */
     border-radius: 5px;
 }
 
@@ -45,29 +49,33 @@ main {
     max-width: 1000px;
     margin: 160px auto 20px auto;
     padding: 20px;
-    background: #f2daa4; /* Slightly darker pale golden yellow */
+    background: #f7dc6f; /* Pale golden yellow for content background */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #4a3c1a; /* Dark brown for text */
 }
 
 h2 {
-    color: #c49a1c; /* Darker golden yellow for headings */
+    color: #d4ac0d; /* Rich golden yellow for headings */
 }
 
 a {
-    color: #a77f0a; /* Darker dull golden yellow for links */
+    color: #b7950b; /* Muted golden yellow for links */
+    text-decoration: underline;
+    transition: color 0.3s;
 }
 
 a:hover {
-    color: #c49a1c; /* Darker golden yellow hover effect */
+    color: #d4ac0d; /* Rich golden yellow hover effect */
 }
 
 footer {
-    background: #c49a1c; /* Darker golden yellow for footer */
-    color: #fff8dc; /* Very light cream for footer text */
+    background: #d4ac0d; /* Rich golden yellow for footer */
+    color: #fff; /* White for footer text */
     text-align: center;
     padding: 10px;
     position: fixed;
     width: 100%;
     bottom: 0;
     z-index: 1000;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
