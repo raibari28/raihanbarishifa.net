@@ -1,14 +1,13 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #fff8dc;
+    background: #fffacd; /* Light golden background */
 }
 
 header {
-    background: #b8860b;
-    color: #fff8dc;
+    background: #ffd700; /* Golden yellow */
+    color: #fffaf0; /* Light cream for text */
     text-align: left;
     padding: 20px;
     position: fixed;
@@ -20,7 +19,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background: #daa520;
+    background: #ffc107; /* Dull golden yellow for nav */
     position: sticky;
     top: 80px;
     width: 100%;
@@ -29,14 +28,14 @@ nav {
 }
 
 nav a {
-    color: #fff8dc;
+    color: #fffaf0; /* Light cream for nav links */
     padding: 14px 20px;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:hover {
-    background: #b8860b;
+    background: #ffd700; /* Golden yellow hover effect */
     border-radius: 5px;
 }
 
@@ -44,25 +43,25 @@ main {
     max-width: 1000px;
     margin: 160px auto 20px auto;
     padding: 20px;
-    background: #fffaf0;
+    background: #fffbf0; /* Very light golden yellow */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #b8860b;
+    color: #ffd700; /* Golden yellow for headings */
 }
 
 a {
-    color: #b8860b;
+    color: #ffc107; /* Dull golden yellow for links */
 }
 
 a:hover {
-    color: #daa520;
+    color: #ffd700; /* Golden yellow hover effect */
 }
 
 footer {
-    background: #b8860b;
-    color: #fff8dc;
+    background: #ffd700; /* Golden yellow for footer */
+    color: #fffaf0; /* Light cream for footer text */
     text-align: center;
     padding: 10px;
     position: fixed;
