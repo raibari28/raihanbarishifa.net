@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #fffacd; /* Light golden background */
+    background: #f0e68c; /* Darker light golden background */
 }
 
 header {
-    background: #ffd700; /* Golden yellow */
+    background: #daa520; /* Dark goldenrod */
     color: #fffaf0; /* Light cream for text */
     text-align: left;
     padding: 20px;
@@ -19,7 +19,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background: #ffc107; /* Dull golden yellow for nav */
+    background: #b8860b; /* Dark dull golden yellow for nav */
     position: sticky;
     top: 80px;
     width: 100%;
@@ -35,7 +35,7 @@ nav a {
 }
 
 nav a:hover {
-    background: #ffd700; /* Golden yellow hover effect */
+    background: #daa520; /* Dark goldenrod hover effect */
     border-radius: 5px;
 }
 
@@ -43,24 +43,24 @@ main {
     max-width: 1000px;
     margin: 160px auto 20px auto;
     padding: 20px;
-    background: #fffbf0; /* Very light golden yellow */
+    background: #fafad2; /* Darker very light golden yellow */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #ffd700; /* Golden yellow for headings */
+    color: #daa520; /* Dark goldenrod for headings */
 }
 
 a {
-    color: #ffc107; /* Dull golden yellow for links */
+    color: #b8860b; /* Dark dull golden yellow for links */
 }
 
 a:hover {
-    color: #ffd700; /* Golden yellow hover effect */
+    color: #daa520; /* Dark goldenrod hover effect */
 }
 
 footer {
-    background: #ffd700; /* Golden yellow for footer */
+    background: #daa520; /* Dark goldenrod for footer */
     color: #fffaf0; /* Light cream for footer text */
     text-align: center;
     padding: 10px;
