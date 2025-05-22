@@ -14,7 +14,7 @@ body {
 
 /* Sticky header with nav below */
 header {
-    background: #d4ac0d;
+    background: #efe123;
     color: #fff;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -41,7 +41,7 @@ header .logo p {
 nav {
     display: flex;
     justify-content: center;
-    background: #b7950b;
+    background: #ddd12e;
     border-radius: 5px;
     overflow: hidden;
 }
@@ -69,7 +69,7 @@ nav {
 }
 
 .nav-links a:hover {
-    background: #d4ac0d;
+    background: #ddd12e;
     color: #fff;
     border-radius: 5px;
 }
@@ -87,7 +87,7 @@ main {
 
 /* Footer */
 footer {
-    background: #d4ac0d;
+    background: #ddd12e;
     color: #fff;
     text-align: center;
     padding: 10px;
