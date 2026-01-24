@@ -1,0 +1,20 @@
+User-agent: *
+# SEO-friendly robots.txt for https://www.raihanbarishifa.net
+# Allows all crawlers except for common sensitive or temporary paths.
+
+User-agent: *
+Allow: /
+
+# Disallow access to backend, temporary, and private folders
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /admin/
+Disallow: /login/
+Disallow: /staging/
+
+# Keep assets accessible so search engines can render pages correctly
+# (do not block CSS/JS/images)
+
+Sitemap: https://www.raihanbarishifa.net/sitemap.xml
+Host: www.raihanbarishifa.net
