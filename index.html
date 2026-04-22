@@ -7,16 +7,15 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-YPX62F447W');
     </script>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portal pribadi Raihan Barishifa, berbagi pemikiran, riset, dan karya di bidang geopolitik, pembangunan nasional, dan lainnya.">
+    <meta name="description" content="Portal pribadi Raihan Barishifa: artikel, proyek, produk digital, dan kanal kontak dalam satu halaman yang lebih mudah digunakan.">
     <meta name="keywords" content="Raihan Barishifa, geopolitik, pembangunan nasional, blog, proyek, produk">
     <meta property="og:title" content="Raihan Barishifa">
-    <meta property="og:description" content="Selamat datang di portal pribadi Raihan Barishifa. Temukan informasi tentang proyek, artikel, dan karya saya.">
+    <meta property="og:description" content="Selamat datang di portal pribadi Raihan Barishifa. Akses cepat ke artikel, proyek, produk, dan kontak.">
     <meta property="og:image" content="rb-icon.jpg">
     <meta property="og:url" content="https://www.raihanbarishifa.net">
     <title>Raihan Barishifa</title>
@@ -24,13 +23,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header role="banner">
-    <div class="logo" style="text-align: left;">
-        <h1>Raihan Barishifa</h1>
-        <p>Selamat datang di portal web <strong>www.raihanbarishifa.net</strong></p>
+<header class="site-header" role="banner">
+    <div class="header-top">
+        <a href="#beranda" class="brand">
+            <img src="rb-sign.png" alt="Logo Raihan Barishifa" class="brand-logo">
+            <div>
+                <h1>Raihan Barishifa</h1>
+                <p>Portal pribadi untuk pemikiran, riset, dan karya.</p>
+            </div>
+        </a>
+        <button class="menu-toggle" aria-label="Buka navigasi" aria-expanded="false" aria-controls="main-nav">☰</button>
     </div>
-    <nav role="navigation">
+
+    <nav id="main-nav" class="main-nav" role="navigation">
         <ul class="nav-links">
             <li><a href="#beranda">Beranda</a></li>
             <li><a href="#tentang">Tentang</a></li>
@@ -43,66 +48,113 @@
 </header>
 
 <main role="main">
-    <section id="beranda" class="section" style="border: 1px solid #ccc; padding: 20px; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-        <h2>Selamat Datang</h2>
-        <p>Di portal pribadi ini, Anda dapat menemukan berbagai informasi tentang proyek, artikel, dan karya saya dalam berbagai bidang, termasuk geopolitik, pembangunan nasional, dan bahasa.</p>
+    <section id="beranda" class="hero">
+        <div>
+            <p class="eyebrow">Selamat datang</p>
+            <h2>Semua kanal Raihan Barishifa dalam satu halaman yang ringkas.</h2>
+            <p>Gunakan navigasi cepat, cari konten yang relevan, dan akses langsung blog, proyek, serta produk digital tanpa perlu membuka banyak halaman.</p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="#produk">Lihat Produk</a>
+                <a class="btn btn-secondary" href="#kontak">Hubungi Saya</a>
+            </div>
+        </div>
+        <aside class="quick-panel" aria-label="Akses cepat">
+            <h3>Akses Cepat</h3>
+            <ul>
+                <li><a href="https://blog.raihanbarishifa.net" target="_blank" rel="noopener noreferrer">RaiBari Blog ↗</a></li>
+                <li><a href="https://www.raihanbarishifa.net/pencarian.html" target="_blank" rel="noopener noreferrer">Pencarian Internet ↗</a></li>
+                <li><a href="mailto:ask@raihanbarishifa.net">ask@raihanbarishifa.net</a></li>
+            </ul>
+        </aside>
     </section>
 
-    <section id="tentang" class="section" style="border: 1px solid #ccc; padding: 20px; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <section class="content-search" aria-label="Cari konten di halaman ini">
+        <label for="site-filter">Cari konten cepat</label>
+        <input id="site-filter" type="search" placeholder="Contoh: bahasa, buku, infrastruktur" autocomplete="off">
+        <p id="filter-status" class="filter-status">Menampilkan semua item.</p>
+    </section>
+
+    <section id="tentang" class="section">
         <h2>Tentang Saya</h2>
-        <h3>Perkenalkan, Saya Raihan Barishifa</h3>
-        <p>Saya memiliki minat besar di bidang geopolitik, pembangunan nasional, infrastruktur transportasi, sastra, dan bahasa. Situs ini menjadi wadah saya untuk berbagi pemikiran, riset, dan karya saya kepada khalayak luas.</p>
+        <p>Saya memiliki minat di bidang geopolitik, pembangunan nasional, infrastruktur transportasi, sastra, dan bahasa. Situs ini adalah ruang untuk berbagi gagasan, eksperimen, serta inisiatif yang sedang dikembangkan.</p>
     </section>
 
-    <section id="blog" class="section" style="border: 1px solid #ccc; padding: 20px; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-        <h2>Blog</h2>
-        <ul>
-            <li><a href="https://blog.raihanbarishifa.net" target="_blank" rel="noopener noreferrer">RaiBari Blog</a></li>
-            <li><a href="https://blog.raihanbarishifa.net/2025/06/sekapur-sirih-raibari-blog.html" target="_blank" rel="noopener noreferrer">Sekapur Sirih</a></li>
-            <li><a href="https://blog.raihanbarishifa.net/2025/10/kesalahan-umum-dalam-belajar-bahasa.html" target="_blank" rel="noopener noreferrer">Kesalahan-Kesalahan Umum dalam Belajar Bahasa</a></li>
-            <li><a href="https://blog.raihanbarishifa.net/2025/08/jika-nusantara-tidak-dijajah.html" target="_blank" rel="noopener noreferrer">Jika Nusantara 'Tidak Dijajah'</a></li>
-        </ul>
+    <section id="blog" class="section">
+        <h2>Artikel Pilihan</h2>
+        <div class="card-grid filterable" data-group="Artikel">
+            <article class="card" data-keywords="blog pengantar sekapur sirih">
+                <h3>Sekapur Sirih</h3>
+                <p>Pengantar resmi RaiBari Blog dan latar belakang penulisan.</p>
+                <a href="https://blog.raihanbarishifa.net/2025/06/sekapur-sirih-raibari-blog.html" target="_blank" rel="noopener noreferrer">Baca artikel ↗</a>
+            </article>
+            <article class="card" data-keywords="bahasa belajar linguistik kesalahan umum">
+                <h3>Kesalahan Umum dalam Belajar Bahasa</h3>
+                <p>Catatan praktis agar proses belajar bahasa lebih efektif.</p>
+                <a href="https://blog.raihanbarishifa.net/2025/10/kesalahan-umum-dalam-belajar-bahasa.html" target="_blank" rel="noopener noreferrer">Baca artikel ↗</a>
+            </article>
+            <article class="card" data-keywords="sejarah nusantara kolonial geopolitik">
+                <h3>Jika Nusantara "Tidak Dijajah"</h3>
+                <p>Eksplorasi skenario alternatif sejarah dan dampaknya hari ini.</p>
+                <a href="https://blog.raihanbarishifa.net/2025/08/jika-nusantara-tidak-dijajah.html" target="_blank" rel="noopener noreferrer">Baca artikel ↗</a>
+            </article>
+        </div>
     </section>
 
-    <section id="proyek" class="section" style="border: 1px solid #ccc; padding: 20px; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-        <h2>Proyek</h2>
-        <ul>
-            <li>"Pengaruh Metafisika terhadap Kemajuan Negara"</li>
-            <li>"Semiotika, Pengodean Warna, dan Pembangunan Infrastruktur"</li>
-            <li>"Pengaruh Ibu Kota Negara terhadap Kinerja Politik"</li>
-            <li>"Superhub Ibu Kota Nusantara"</li>
-            <li>"Koridor Jakarta–Bandung–Cirebon"</li>
-            <li>"Koridor Singapura–Batam–Sumatra"</li>
-            <li>"Jaringan Infrastruktur Transportasi dan Telekomunikasi Asia Tenggara"</li>
-            <li>"Kawasan Nusantara Raya: Integrasi Asia Tenggara berdasarkan Perjanjian Nusantara"</li>
-            <li>"Susunan Pertahanan Umum ASEAN (ASEAN Common Defence Arrangements/ACDA)"</li>
-            <li>"Badan Kerjasama Penegakan Hukum ASEAN (ASEAN Agency for Law Enforcement Cooperations/ASEANAPOL)"</li>
-            <li>Kamus Komodo: Aplikasi Kamus Dwibahasa Indonesia-Inggris & Inggris-Indonesia</li>
-            <li>Pencarian Multimoda A.I.</li>
-            <li>Peringkas/Perangkum Video</li>
-        </ul>
+    <section id="proyek" class="section">
+        <h2>Proyek & Riset</h2>
+        <div class="list-grid filterable" data-group="Proyek">
+            <div class="list-item" data-keywords="metafisika kemajuan negara">Pengaruh Metafisika terhadap Kemajuan Negara</div>
+            <div class="list-item" data-keywords="semiotika warna infrastruktur">Semiotika, Pengodean Warna, dan Pembangunan Infrastruktur</div>
+            <div class="list-item" data-keywords="ibu kota politik kinerja">Pengaruh Ibu Kota Negara terhadap Kinerja Politik</div>
+            <div class="list-item" data-keywords="ikn superhub">Superhub Ibu Kota Nusantara</div>
+            <div class="list-item" data-keywords="jakarta bandung cirebon koridor">Koridor Jakarta–Bandung–Cirebon</div>
+            <div class="list-item" data-keywords="singapura batam sumatra koridor">Koridor Singapura–Batam–Sumatra</div>
+            <div class="list-item" data-keywords="asean transportasi telekomunikasi">Jaringan Infrastruktur Transportasi dan Telekomunikasi Asia Tenggara</div>
+            <div class="list-item" data-keywords="nusantara raya integrasi asia tenggara">Kawasan Nusantara Raya: Integrasi Asia Tenggara berdasarkan Perjanjian Nusantara</div>
+            <div class="list-item" data-keywords="asean pertahanan acda">Susunan Pertahanan Umum ASEAN (ACDA)</div>
+            <div class="list-item" data-keywords="asean penegakan hukum aseanapol">Badan Kerjasama Penegakan Hukum ASEAN (ASEANAPOL)</div>
+            <div class="list-item" data-keywords="kamus komodo aplikasi bahasa">Kamus Komodo: Aplikasi Kamus Dwibahasa Indonesia-Inggris & Inggris-Indonesia</div>
+            <div class="list-item" data-keywords="pencarian multimoda ai">Pencarian Multimoda A.I.</div>
+            <div class="list-item" data-keywords="peringkas video rangkum">Peringkas/Perangkum Video</div>
+        </div>
     </section>
 
-    <section id="produk" class="section" style="border: 1px solid #ccc; padding: 20px; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-        <h2>Produk</h2>
-        <ul>
-            <li><a href="https://www.raihanbarishifa.net/pencarian.html" target="_blank" rel="noopener noreferrer">Pencarian Internet</a></li>
-            <li><a href="https://app.raihanbarishifa.net/stpn" target="_blank" rel="noopener noreferrer">Buku "Strategi dan Teknik Pembinaan Negara"</a></li>
-            <li><a href="https://app.raihanbarishifa.net/celahmalaka" target="_blank" rel="noopener noreferrer">Buku "Celah Malaka"</a></li>
-            <li><a href="https://app.raihanbarishifa.net/ptf" target="_blank" rel="noopener noreferrer">Kursus Penerjemahan Bahasa</a></li>
-        </ul>
+    <section id="produk" class="section">
+        <h2>Produk Digital</h2>
+        <div class="card-grid filterable" data-group="Produk">
+            <article class="card" data-keywords="search pencarian internet">
+                <h3>Pencarian Internet</h3>
+                <p>Alat pencarian cepat untuk menjelajahi web dari satu antarmuka.</p>
+                <a href="https://www.raihanbarishifa.net/pencarian.html" target="_blank" rel="noopener noreferrer">Buka produk ↗</a>
+            </article>
+            <article class="card" data-keywords="buku strategi teknik pembinaan negara stpn">
+                <h3>Buku: Strategi dan Teknik Pembinaan Negara</h3>
+                <p>Akses versi digital buku untuk pembacaan daring.</p>
+                <a href="https://app.raihanbarishifa.net/stpn" target="_blank" rel="noopener noreferrer">Buka produk ↗</a>
+            </article>
+            <article class="card" data-keywords="buku celah malaka geopolitik">
+                <h3>Buku: Celah Malaka</h3>
+                <p>Eksplorasi isu strategis kawasan melalui naskah digital.</p>
+                <a href="https://app.raihanbarishifa.net/celahmalaka" target="_blank" rel="noopener noreferrer">Buka produk ↗</a>
+            </article>
+            <article class="card" data-keywords="kursus penerjemahan bahasa">
+                <h3>Kursus Penerjemahan Bahasa</h3>
+                <p>Program pembelajaran terstruktur untuk keterampilan menerjemah.</p>
+                <a href="https://app.raihanbarishifa.net/ptf" target="_blank" rel="noopener noreferrer">Buka produk ↗</a>
+            </article>
+        </div>
     </section>
 
-    <section id="kontak" class="section" style="border: 1px solid #ccc; padding: 20px; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-        <h2>Kontak</h2>
-        <ul>
-            <li>Sur-el (E-mail): <a href="mailto:ask@raihanbarishifa.net">ask@raihanbarishifa.net</a></li>
-            <li>Facebook: <a href="https://facebook.com/raihan.bari.09" target="_blank" rel="noopener noreferrer">Raihan Barishifa</a></li>
-            <li>X (Twitter): <a href="https://twitter.com/raihanbari98" target="_blank" rel="noopener noreferrer">@raihanbari98</a></li>
-            <li>Instagram: <a href="https://instagram.com/raihanbari98" target="_blank" rel="noopener noreferrer">raihanbari98</a></li>
-            <li>TikTok: <a href="https://tiktok.com/@raihanbari98" target="_blank" rel="noopener noreferrer">@raihanbari98</a></li>
-            <li>Linkedin: <a href="https://linkedin.com/in/raihan-bari" target="_blank" rel="noopener noreferrer">Raihan Barishifa</a></li>
-        </ul>
+    <section id="kontak" class="section">
+        <h2>Kontak & Sosial Media</h2>
+        <div class="contact-grid">
+            <a href="mailto:ask@raihanbarishifa.net">Sur-el: ask@raihanbarishifa.net</a>
+            <a href="https://facebook.com/raihan.bari.09" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://twitter.com/raihanbari98" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
+            <a href="https://instagram.com/raihanbari98" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://tiktok.com/@raihanbari98" target="_blank" rel="noopener noreferrer">TikTok</a>
+            <a href="https://linkedin.com/in/raihan-bari" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
     </section>
 </main>
 
@@ -111,7 +163,5 @@
 </footer>
 
 <script src="scroll-center.js"></script>
-
 </body>
-
 </html>
