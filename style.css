@@ -40,7 +40,6 @@ body {
     padding: 12px 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 12px;
 }
 
@@ -50,6 +49,8 @@ body {
     gap: 10px;
     color: inherit;
     text-decoration: none;
+    min-width: 0;
+    flex: 1 1 auto;
 }
 
 .brand-logo {
@@ -194,6 +195,26 @@ main {
     margin-bottom: 8px;
 }
 
+.content-search--header {
+    margin: 0;
+    padding: 10px 12px;
+    min-width: 280px;
+    max-width: 460px;
+    flex: 1 1 360px;
+}
+
+.content-search--header label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 6px;
+}
+
+.content-search--header .filter-status {
+    margin-top: 6px;
+    font-size: 0.82rem;
+}
+
 #site-filter {
     width: 100%;
     padding: 12px;
@@ -271,12 +292,25 @@ footer {
 }
 
 @media (max-width: 860px) {
+    .header-top {
+        flex-wrap: wrap;
+    }
+
+    .content-search--header {
+        order: 3;
+        width: 100%;
+        max-width: none;
+        min-width: 0;
+        flex-basis: 100%;
+    }
+
     .hero {
         grid-template-columns: 1fr;
     }
 
     .menu-toggle {
         display: inline-block;
+        margin-left: auto;
     }
 
     .main-nav {
