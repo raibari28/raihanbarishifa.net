@@ -3,31 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Halaman pencarian cepat Raihan Barishifa untuk Google, Google AI, gambar, dan YouTube.">
     <link rel="shortcut icon" href="rb-icon.jpg" type="image/jpeg">
     <link rel="stylesheet" href="search-style.css">
-    <title>Pencarian</title>
+    <title>Pencarian | Raihan Barishifa</title>
 </head>
 <body>
-    <h1>MESIN PENCARIAN</h1>
-    <form action="https://www.google.com/search">
-        <input type="text" name="q" placeholder="Google Pencarian" required>
-        <button>🔍</button>
-    </form>
-    <form action="https://www.google.com/search" method="get">
-        <input type="hidden" name="udm" value="50">
-        <input type="text" name="q" placeholder="Google Mode AI" required style="height: 40px">
-        <button>🔍</button>
-    </form>
-    <form action="https://www.google.com/search" method="get">
-        <input type="hidden" name="tbm" value="isch">
-        <input type="text" name="q" placeholder="Google Gambar" required>
-        <button>🔍</button>
-    </form>
-    <form action="https://www.youtube.com/results">
-        <input type="text" name="search_query" placeholder="YouTube" required>
-        <button>🔍</button>
-    </form>
-    <button style="width: 80px; height: 40px;"><a href="https://www.raihanbarishifa.net" style="display:block; width:100%; height:100%; line-height:40px; text-decoration:none; color:inherit;">Kembali</a></button>
-</body>
+<header class="site-header" role="banner">
+    <div class="header-top">
+        <a href="index.html" class="brand">
+            <img src="rb-icon.jpg" alt="Logo Raihan Barishifa" class="brand-logo">
+            <div>
+                <h1>Raihan Barishifa</h1>
+                <p>Portal raihanbarishifa.net</p>
+            </div>
+        </a>
+        <a href="index.html" class="btn btn-secondary">← Kembali</a>
+    </div>
+</header>
+
+<main role="main">
+    <section class="hero">
+        <div>
+            <p class="eyebrow">Pusat Pencarian</p>
+            <h2>Cari cepat di web dari satu halaman.</h2>
+            <p>Gunakan shortcut pencarian untuk Google, mode AI, gambar, dan YouTube dengan tampilan yang konsisten dengan portal utama.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <h3>Google Pencarian</h3>
+        <form action="https://www.google.com/search" method="get" class="search-form">
+            <input type="text" name="q" placeholder="Ketik kata kunci..." required>
+            <button type="submit" class="btn btn-primary">🔍 Cari</button>
+        </form>
+    </section>
+
+    <section class="section">
+        <h3>Google Mode AI</h3>
+        <form action="https://www.google.com/search" method="get" class="search-form">
+            <input type="hidden" name="udm" value="50">
+            <input type="text" name="q" placeholder="Ketik pertanyaan untuk mode AI..." required>
+            <button type="submit" class="btn btn-primary">🔍 Cari</button>
+        </form>
+    </section>
+
+    <section class="section">
+        <h3>Google Gambar</h3>
+        <form action="https://www.google.com/search" method="get" class="search-form">
+            <input type="hidden" name="tbm" value="isch">
+            <input type="text" name="q" placeholder="Cari gambar..." required>
+            <button type="submit" class="btn btn-primary">🔍 Cari</button>
+        </form>
+    </section>
+
+    <section class="section">
+        <h3>YouTube</h3>
+        <form action="https://www.youtube.com/results" method="get" class="search-form">
+            <input type="text" name="search_query" placeholder="Cari video YouTube..." required>
+            <button type="submit" class="btn btn-primary">🔍 Cari</button>
+        </form>
+    </section>
+</main>
+
+<footer role="contentinfo">
+    <p>&copy; 2026 Raihan Barishifa. Semua Hak Dilindungi.</p>
+</footer>
 </body>
 </html>
