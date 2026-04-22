@@ -211,6 +211,26 @@ main {
     margin-bottom: 8px;
 }
 
+.content-search--header {
+    margin: 0;
+    padding: 10px 12px;
+    min-width: 280px;
+    max-width: 460px;
+    flex: 1 1 360px;
+}
+
+.content-search--header label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 6px;
+}
+
+.content-search--header .filter-status {
+    margin-top: 6px;
+    font-size: 0.82rem;
+}
+
 #site-filter {
     width: 100%;
     padding: 12px;
@@ -288,6 +308,18 @@ footer {
 }
 
 @media (max-width: 860px) {
+    .header-top {
+        flex-wrap: wrap;
+    }
+
+    .content-search--header {
+        order: 3;
+        width: 100%;
+        max-width: none;
+        min-width: 0;
+        flex-basis: 100%;
+    }
+
     .hero {
         grid-template-columns: 1fr;
     }
@@ -295,10 +327,6 @@ footer {
     .menu-toggle {
         display: inline-block;
         margin-left: auto;
-    }
-
-    .header-search-btn {
-        padding: 8px 10px;
     }
 
     .main-nav {
