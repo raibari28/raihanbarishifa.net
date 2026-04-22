@@ -295,6 +295,18 @@ footer {
 }
 
 @media (max-width: 860px) {
+    .header-top {
+        flex-wrap: wrap;
+    }
+
+    .content-search--header {
+        order: 3;
+        width: 100%;
+        max-width: none;
+        min-width: 0;
+        flex-basis: 100%;
+    }
+
     .hero {
         grid-template-columns: 1fr;
     }
