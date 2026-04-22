@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const navLinks = document.querySelectorAll('a[href^="#"]');
+    const navLinks = document.querySelectorAll('nav a[href^="#"]');
     const menuToggle = document.querySelector('.menu-toggle');
     const mainNav = document.querySelector('.main-nav');
     const searchInput = document.getElementById('site-filter');
