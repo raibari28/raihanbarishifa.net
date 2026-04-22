@@ -32,9 +32,6 @@
                 <p>Portal pribadi untuk pemikiran, riset, dan karya.</p>
             </div>
         </a>
-        <section class="content-search content-search--header-btn" aria-label="Navigasi pencarian">
-            <a href="#search-panel" class="header-search-btn" aria-label="Buka bagian pencarian konten">🔎 Cari</a>
-        </section>
         <button class="menu-toggle" aria-label="Buka navigasi" aria-expanded="false" aria-controls="main-nav">☰</button>
     </div>
 
@@ -46,6 +43,12 @@
             <li><a href="#proyek">Proyek</a></li>
             <li><a href="#produk">Produk</a></li>
             <li><a href="#kontak">Kontak</a></li>
+            <li class="nav-search-item">
+                <button class="content-search" type="button" aria-label="Cari konten">
+                    🔎
+                </button>
+                <input id="site-filter" type="search" placeholder="Cari konten..." autocomplete="off" aria-label="Cari konten cepat">
+            </li>
         </ul>
     </nav>
 </header>
@@ -71,9 +74,7 @@
         </aside>
     </section>
 
-    <section id="search-panel" class="search-panel" aria-label="Cari konten di halaman ini">
-        <label for="site-filter">Cari konten cepat</label>
-        <input id="site-filter" type="search" placeholder="Contoh: bahasa, buku, infrastruktur" autocomplete="off">
+    <section class="search-panel" aria-label="Status pencarian konten">
         <p id="filter-status" class="filter-status">Menampilkan semua item.</p>
     </section>
 
