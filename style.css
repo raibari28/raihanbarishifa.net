@@ -108,6 +108,22 @@ body {
     background: var(--surface-alt);
 }
 
+.header-search-btn {
+    display: block;
+    padding: 12px;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    white-space: nowrap;
+}
+
+.header-search-btn:hover,
+.header-search-btn:focus-visible {
+    background: var(--surface-alt);
+}
+
 main {
     max-width: 1100px;
     margin: 28px auto 80px;
