@@ -196,7 +196,7 @@ main {
     padding-left: 18px;
 }
 
-.content-search,
+.search-panel,
 .section {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -205,30 +205,17 @@ main {
     margin-bottom: 16px;
 }
 
-.content-search label {
+.search-panel label {
     display: block;
     font-weight: 600;
     margin-bottom: 8px;
 }
 
-.content-search--header {
+.content-search--header-btn {
     margin: 0;
-    padding: 10px 12px;
-    min-width: 280px;
-    max-width: 460px;
-    flex: 1 1 360px;
-}
-
-.content-search--header label {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    margin-bottom: 6px;
-}
-
-.content-search--header .filter-status {
-    margin-top: 6px;
-    font-size: 0.82rem;
+    padding: 0;
+    background: transparent;
+    border: 0;
 }
 
 #site-filter {
@@ -327,6 +314,10 @@ footer {
     .menu-toggle {
         display: inline-block;
         margin-left: auto;
+    }
+
+    .header-search-btn {
+        padding: 8px 10px;
     }
 
     .main-nav {
