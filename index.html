@@ -32,40 +32,10 @@
                 <p>www.raihanbarishifa.net</p>
             </div>
         </a>
-        <nav class="header-search-nav" role="navigation" aria-label="Pencarian">
-            <button
-                class="content-search"
-                type="button"
-                aria-label="Buka pencarian"
-                aria-expanded="false"
-                aria-controls="search-drawer">
-                🔎
-            </button>
-        </nav>
-        <nav class="header-menu-nav" role="navigation" aria-label="Menu utama">
-            <button
-                class="menu-toggle"
-                type="button"
-                aria-label="Buka navigasi"
-                aria-expanded="false"
-                aria-controls="main-nav">
-                ☰
-            </button>
-        </nav>
+        <button class="menu-toggle" type="button" aria-label="Buka navigasi" aria-expanded="false" aria-controls="main-nav">☰</button>
     </div>
 
-    <div id="search-drawer" class="header-drawer search-drawer">
-        <div class="drawer-inner">
-            <label for="site-filter">Cari konten</label>
-            <input
-                id="site-filter"
-                type="search"
-                placeholder="Cari konten..."
-                autocomplete="off">
-        </div>
-    </div>
-
-    <nav id="main-nav" class="header-drawer main-nav" aria-label="Navigasi utama">
+    <nav id="main-nav" class="main-nav" aria-label="Navigasi utama">
         <ul class="nav-links">
             <li><a href="#beranda">Beranda</a></li>
             <li><a href="#tentang">Tentang</a></li>
@@ -73,6 +43,10 @@
             <li><a href="#proyek">Proyek</a></li>
             <li><a href="#produk">Produk</a></li>
             <li><a href="#kontak">Kontak</a></li>
+            <li class="nav-search-item">
+                <button class="content-search" type="button" aria-label="Cari konten">🔎</button>
+                <input id="site-filter" type="search" placeholder="Cari konten..." autocomplete="off" aria-label="Cari konten cepat">
+            </li>
         </ul>
     </nav>
 </header>
@@ -104,7 +78,7 @@
 
     <section id="tentang" class="section">
         <h2>Tentang Saya</h2>
-        <p>Saya memiliki minat di bidang geopolitik, pembangunan nasional, infrastruktur transportasi, sastra, dan bahasa. Situs ini adalah ruang untuk berbagi gagasan, eksperimen, serta inisiatif yang sedang dikembangkan.
+        <p>Saya memiliki minat di bidang geopolitik, pembangunan nasional, infrastruktur transportasi, sastra, dan bahasa. Situs ini adalah ruang untuk berbagi gagasan, eksperimen, serta inisiatif yang sedang dikembangkan.</p>
     </section>
 
     <section id="blog" class="section">
@@ -169,7 +143,6 @@
                 <h3>Kursus Penerjemahan Bahasa</h3>
                 <p>"Kerangka Penerjemahan Profesional"</p>
                 <a href="https://web.raihanbarishifa.net/ptf" target="_blank" rel="noopener noreferrer">Buka produk ↗</a>
-            </article>
             </article>
             <article class="card" data-keywords="kursus literasi fungsional dan komunikasi">
                 <h3>Kursus Literasi Fungsional & Komunikasi</h3>
