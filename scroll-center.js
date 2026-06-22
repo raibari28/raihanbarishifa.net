@@ -1,10 +1,26 @@
 document.addEventListener('DOMContentLoaded', () => {
     const navLinks = document.querySelectorAll('nav a[href^="#"]');
+    const searchToggle = document.querySelector('.content-search');
     const menuToggle = document.querySelector('.menu-toggle');
+    const searchDrawer = document.getElementById('search-drawer');
     const mainNav = document.querySelector('.main-nav');
     const searchInput = document.getElementById('site-filter');
     const filterStatus = document.getElementById('filter-status');
     const filterItems = document.querySelectorAll('.filterable > *');
+
+    const closeDrawer = (button, drawer) => {
+        button?.setAttribute('aria-expanded', 'false');
+        drawer?.classList.remove('is-open');
+    };
+
+    const toggleDrawer = (button, drawer, otherButton, otherDrawer) => {
+        if (!button || !drawer) return;
+
+        const willOpen = button.getAttribute('aria-expanded') !== 'true';
+        closeDrawer(otherButton, otherDrawer);
+        button.setAttribute('aria-expanded', String(willOpen));
+        drawer.classList.toggle('is-open', willOpen);
+    };
 
     navLinks.forEach(link => {
         link.addEventListener('click', event => {
@@ -19,18 +35,27 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             }
 
-            if (mainNav && mainNav.classList.contains('is-open')) {
-                mainNav.classList.remove('is-open');
-                menuToggle?.setAttribute('aria-expanded', 'false');
-            }
+            closeDrawer(menuToggle, mainNav);
         });
     });
 
+    searchToggle?.addEventListener('click', () => {
+        toggleDrawer(searchToggle, searchDrawer, menuToggle, mainNav);
+
+        if (searchToggle.getAttribute('aria-expanded') === 'true') {
+            searchInput?.focus();
+        }
+    });
+
     menuToggle?.addEventListener('click', () => {
-        if (!mainNav) return;
-        const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
-        menuToggle.setAttribute('aria-expanded', String(!expanded));
-        mainNav.classList.toggle('is-open');
+        toggleDrawer(menuToggle, mainNav, searchToggle, searchDrawer);
+    });
+
+    document.addEventListener('keydown', event => {
+        if (event.key !== 'Escape') return;
+
+        closeDrawer(searchToggle, searchDrawer);
+        closeDrawer(menuToggle, mainNav);
     });
 
     searchInput?.addEventListener('input', () => {
