@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const navLinks = document.querySelectorAll('nav a[href^="#"]');
-    const searchToggle = document.querySelector('.content-search');
+    // FIXED: Changed '.content-search' to '.search-toggle' to match your HTML
+    const searchToggle = document.querySelector('.search-toggle');
     const menuToggle = document.querySelector('.menu-toggle');
     const searchDrawer = document.getElementById('search-drawer');
     const mainNav = document.querySelector('.main-nav');

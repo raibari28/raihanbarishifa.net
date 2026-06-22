@@ -32,17 +32,16 @@
                     <p>www.raihanbarishifa.net</p>
                 </div>
             </a>
-            <nav class="header-search-nav" role="navigation" aria-label="Pencarian">
+            
+            <div class="header-toggles">
                 <button
-                    class="content-search"
+                    class="search-toggle"
                     type="button"
                     aria-label="Buka pencarian"
                     aria-expanded="false"
                     aria-controls="search-drawer">
                     🔎
                 </button>
-            </nav>
-            <nav class="header-menu-nav" role="navigation" aria-label="Menu utama">
                 <button
                     class="menu-toggle"
                     type="button"
@@ -51,29 +50,28 @@
                     aria-controls="main-nav">
                     ☰
                 </button>
-            </nav>
+            </div>
         </div>
         
-        <div id="search-drawer" class="header-drawer search-drawer">
-            <div class="drawer-inner">
-                <label for="site-filter">Cari konten</label>
+        <div class="header-drawers">
+            <nav id="main-nav" class="main-nav" aria-label="Navigasi utama">
+                <ul class="nav-links">
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#proyek">Proyek</a></li>
+                    <li><a href="#produk">Produk</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+            
+            <div id="search-drawer" class="search-drawer" aria-label="Laci Pencarian">
                 <input
                     id="site-filter"
                     type="search"
                     placeholder="Cari..."
                     autocomplete="off">
             </div>
-            
-            <nav id="main-nav" class="main-nav" aria-label="Navigasi utama">
-                    <ul class="nav-links">
-                        <li><a href="#beranda">Beranda</a></li>
-                        <li><a href="#tentang">Tentang</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#proyek">Proyek</a></li>
-                        <li><a href="#produk">Produk</a></li>
-                        <li><a href="#kontak">Kontak</a></li>
-                    </ul>
-            </nav>
         </div>
     </header>
 
