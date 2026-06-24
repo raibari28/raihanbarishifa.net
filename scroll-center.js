@@ -8,6 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('site-filter');
     const filterStatus = document.getElementById('filter-status');
     const filterItems = document.querySelectorAll('.filterable > *');
+    const allItemsStatus = filterStatus?.dataset.statusAll || 'Menampilkan semua item.';
+    const resultsStatusTemplate = filterStatus?.dataset.statusResults || 'Menampilkan {count} hasil untuk "{query}".';
 
     const closeDrawer = (button, drawer) => {
         button?.setAttribute('aria-expanded', 'false');
@@ -73,9 +75,11 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!filterStatus) return;
 
         if (query === '') {
-            filterStatus.textContent = 'Menampilkan semua item.';
+            filterStatus.textContent = allItemsStatus;
         } else {
-            filterStatus.textContent = `Menampilkan ${visibleCount} hasil untuk "${query}".`;
+            filterStatus.textContent = resultsStatusTemplate
+                .replace('{count}', String(visibleCount))
+                .replace('{query}', query);
         }
     });
 });
