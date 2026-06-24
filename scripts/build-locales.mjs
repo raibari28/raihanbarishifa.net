@@ -20,7 +20,8 @@ const languages = [
     { code: "fr", hreflang: "fr", htmlLang: "fr", dir: "ltr", flag: "🇫🇷", native: "Français" },
     { code: "es", hreflang: "es", htmlLang: "es", dir: "ltr", flag: "🇪🇸", native: "Español" },
     { code: "it", hreflang: "it", htmlLang: "it", dir: "ltr", flag: "🇮🇹", native: "Italiano" },
-    { code: "pt", hreflang: "pt", htmlLang: "pt", dir: "ltr", flag: "🇵🇹", native: "Português" }
+    { code: "pt", hreflang: "pt", htmlLang: "pt", dir: "ltr", flag: "🇵🇹", native: "Português" },
+    { code: "tr", hreflang: "tr", htmlLang: "tr", dir: "ltr", flag: "🇹🇷", native: "Türkçe" }
 ];
 
 const blogLinks = [
@@ -1237,6 +1238,84 @@ const content = {
             linkedin: "LinkedIn: Raihan Barishifa"
         },
         footer: "© 2026 Raihan Barishifa. Todos os direitos reservados."
+    },
+    tr: {
+        metaDescription: "Raihan Barishifa'nın kişisel portalı: makaleler, projeler, dijital ürünler ve iletişim kanalları daha kolay kullanılan tek bir sayfada.",
+        metaKeywords: "Raihan Barishifa, jeopolitik, ulusal kalkınma, blog, projeler, ürünler",
+        ogDescription: "Raihan Barishifa'nın kişisel portalına hoş geldiniz. Makalelere, projelere, ürünlere ve iletişim bağlantılarına hızlı erişim.",
+        brandTitle: "Raihan Barishifa Portalı",
+        aria: {
+            mainNav: "Ana gezinme",
+            searchDrawer: "Arama paneli",
+            openSearch: "Aramayı aç",
+            openNav: "Gezinmeyi aç",
+            quickAccess: "Hızlı erişim",
+            chooseLanguage: "Dil seç",
+            languageList: "Dil seçenekleri"
+        },
+        nav: ["Ana Sayfa", "Hakkında", "Blog", "Projeler", "Ürünler", "İletişim"],
+        searchPlaceholder: "Ara...",
+        hero: {
+            eyebrow: "Hoş geldiniz",
+            title: "Raihan Barishifa'nın tüm kanalları tek ve kısa bir sayfada.",
+            body: "Hızlı gezinmeyi kullanın, ilgili içerikleri arayın ve çok sayıda sayfa açmadan bloga, projelere ve dijital ürünlere doğrudan ulaşın.",
+            primary: "Ürünleri Gör",
+            secondary: "Benimle İletişime Geç"
+        },
+        quick: {
+            title: "Hızlı Erişim",
+            blog: "RaiBari Blog ↗",
+            search: "İnternet Araması ↗",
+            email: "ask@raihanbarishifa.net"
+        },
+        filter: {
+            all: "Tüm öğeler gösteriliyor.",
+            results: "\"{query}\" için {count} sonuç gösteriliyor."
+        },
+        about: {
+            title: "Hakkımda",
+            body: "Jeopolitik, ulusal kalkınma, ulaşım altyapısı, edebiyat ve dillere ilgi duyuyorum. Bu site; fikirleri, deneyleri ve geliştirilmekte olan girişimleri paylaşmak için bir alandır."
+        },
+        blogTitle: "Öne Çıkan Blog Yazıları",
+        blogCards: [
+            ["Açılış Notu", "RaiBari Blog'un resmi tanıtımı ve yazıların arka planı.", "Blog yazısını oku ↗"],
+            ["Dil Öğreniminde Yaygın Hatalar", "Dil öğrenme sürecini daha etkili hale getirmek için pratik notlar.", "Blog yazısını oku ↗"],
+            ["Nusantara \"Sömürgeleştirilmemiş\" Olsaydı", "Alternatif tarih senaryolarının ve bugünkü etkilerinin incelenmesi.", "Blog yazısını oku ↗"]
+        ],
+        projectsTitle: "Projeler ve Araştırma",
+        projects: [
+            "Metafiziğin Devletin İlerlemesine Etkisi",
+            "Göstergebilim, Renk Kodlama ve Altyapı Geliştirme",
+            "Ulusal Başkentin Siyasal Performansa Etkisi",
+            "Nusantara Başkent Süper Merkezi",
+            "Cakarta-Bandung-Cirebon Koridoru",
+            "Singapur-Batam-Sumatra Koridoru",
+            "Güneydoğu Asya Ulaşım ve Telekomünikasyon Altyapı Ağı",
+            "Büyük Nusantara Bölgesi: Nusantara Antlaşması'na Dayalı Güneydoğu Asya Entegrasyonu",
+            "ASEAN Ortak Savunma Düzeni (ACDA)",
+            "ASEAN Kolluk İşbirliği Kurumu (ASEANAPOL)",
+            "Komodo Sözlüğü: Endonezce-İngilizce ve İngilizce-Endonezce İki Dilli Sözlük Uygulaması",
+            "Çok Modlu A.I. Arama",
+            "Video Özetleyici"
+        ],
+        productsTitle: "Dijital Ürünler",
+        productCards: [
+            ["İnternet Araması", "Web'i tek bir arayüzden keşfetmek için hızlı bir arama aracı.", "Ürünü aç ↗"],
+            ["Kitap: Devlet İnşası için Strateji ve Teknikler", "Endonezya için öğrenme materyali.", "Ürünü aç ↗"],
+            ["Kitap \"Celah Malaka\"", "Ekonomik eşitsizliği ve stratejik fırsatları inceler.", "Ürünü aç ↗"],
+            ["Dil Çevirisi Kursu", "\"Profesyonel Çeviri Çerçevesi\"", "Ürünü aç ↗"],
+            ["İşlevsel Okuryazarlık ve İletişim Kursu", "\"Küresel İletişim Zekası\"", "Ürünü aç ↗"]
+        ],
+        contactTitle: "İletişim ve Sosyal Medya",
+        contact: {
+            email: "E-posta: ask@raihanbarishifa.net",
+            facebook: "Facebook: Raihan Barishifa",
+            twitter: "X (Twitter): @raihanbari98",
+            instagram: "Instagram: @raihanbari98",
+            tiktok: "TikTok: raihanbari98",
+            linkedin: "LinkedIn: Raihan Barishifa"
+        },
+        footer: "© 2026 Raihan Barishifa. Tüm hakları saklıdır."
     }
 };
 
