@@ -382,10 +382,10 @@ const content = {
         footer: "© 2026 Raihan Barishifa สงวนลิขสิทธิ์"
     },
     zh: {
-        metaDescription: "Raihan Barishifa 的个人门户：文章、项目、数字产品和联系方式集中在一个更易使用的页面中。",
-        metaKeywords: "Raihan Barishifa, 地缘政治, 国家发展, 博客, 项目, 产品",
-        ogDescription: "欢迎访问 Raihan Barishifa 的个人门户。快速进入文章、项目、产品和联系方式。",
-        brandTitle: "Raihan Barishifa 门户",
+        metaDescription: "仈赖网 的个人门户：文章、项目、数字产品和联系方式集中在一个更易使用的页面中。",
+        metaKeywords: "仈赖, 地缘政治, 国家发展, 博客, 项目, 产品",
+        ogDescription: "欢迎访问 仈赖网 的个人门户。快速进入文章、项目、产品和联系方式。",
+        brandTitle: "仈赖门户网站",
         aria: {
             mainNav: "主导航",
             searchDrawer: "搜索抽屉",
@@ -399,14 +399,14 @@ const content = {
         searchPlaceholder: "搜索...",
         hero: {
             eyebrow: "欢迎",
-            title: "Raihan Barishifa 的所有频道集中在一个简洁页面中。",
+            title: "仈赖网的所有频道集中在一个简洁页面中。",
             body: "使用快速导航，搜索相关内容，并直接访问博客、项目和数字产品，无需打开许多页面。",
             primary: "查看产品",
             secondary: "联系我"
         },
         quick: {
             title: "快速访问",
-            blog: "RaiBari 博客 ↗",
+            blog: "仈赖博客 ↗",
             search: "互联网搜索 ↗",
             email: "ask@raihanbarishifa.net"
         },
@@ -429,7 +429,7 @@ const content = {
             "形而上学对国家进步的影响",
             "符号学、颜色编码与基础设施发展",
             "国家首都对政治绩效的影响",
-            "努山塔拉首都超级枢纽",
+            "努城首都超级枢纽",
             "雅加达-万隆-井里汶走廊",
             "新加坡-巴淡-苏门答腊走廊",
             "东南亚交通与电信基础设施网络",
@@ -437,14 +437,14 @@ const content = {
             "东盟共同防务安排 (ACDA)",
             "东盟执法合作机构 (ASEANAPOL)",
             "Komodo 词典：印尼语-英语与英语-印尼语双语词典应用",
-            "多模态 A.I. 搜索",
+            "多模态AI搜索",
             "视频摘要工具"
         ],
         productsTitle: "数字产品",
         productCards: [
             ["互联网搜索", "从一个界面快速探索网络的搜索工具。", "打开产品 ↗"],
-            ["图书：国家建设的战略与技术", "面向印度尼西亚的学习材料。", "打开产品 ↗"],
-            ["图书《Celah Malaka》", "追踪经济不平衡与战略机会。", "打开产品 ↗"],
+            ["图书：《国家建设的战略与技术》", "面向印度尼西亚的学习材料。", "打开产品 ↗"],
+            ["图书《马六甲的差距》", "追踪经济不平衡与战略机会。", "打开产品 ↗"],
             ["语言翻译课程", "“专业翻译框架”", "打开产品 ↗"],
             ["功能性素养与传播课程", "“全球传播智能”", "打开产品 ↗"]
         ],
@@ -460,10 +460,10 @@ const content = {
         footer: "© 2026 Raihan Barishifa。保留所有权利。"
     },
     ja: {
-        metaDescription: "Raihan Barishifa の個人ポータル。記事、プロジェクト、デジタル製品、連絡先を使いやすい1ページにまとめています。",
-        metaKeywords: "Raihan Barishifa, 地政学, 国家開発, ブログ, プロジェクト, 製品",
-        ogDescription: "Raihan Barishifa の個人ポータルへようこそ。記事、プロジェクト、製品、連絡先へすばやくアクセスできます。",
-        brandTitle: "Raihan Barishifa ポータル",
+        metaDescription: "ライハン．バリシファ の個人ポータル。記事、プロジェクト、デジタル製品、連絡先を使いやすい1ページにまとめています。",
+        metaKeywords: "ライハン．バリシファ, 地政学, 国家開発, ブログ, プロジェクト, 製品",
+        ogDescription: "ライハン．バリシファ の個人ポータルへようこそ。記事、プロジェクト、製品、連絡先へすばやくアクセスできます。",
+        brandTitle: "ライハン．バリシファ ポータル",
         aria: {
             mainNav: "メインナビゲーション",
             searchDrawer: "検索ドロワー",
@@ -477,14 +477,14 @@ const content = {
         searchPlaceholder: "検索...",
         hero: {
             eyebrow: "ようこそ",
-            title: "Raihan Barishifa のすべてのチャンネルを簡潔な1ページに。",
+            title: "ライハン．バリシファのすべてのチャンネルを簡潔な1ページに。",
             body: "クイックナビゲーションで関連コンテンツを検索し、ブログ、プロジェクト、デジタル製品へ多くのページを開かずに直接アクセスできます。",
             primary: "製品を見る",
             secondary: "連絡する"
         },
         quick: {
             title: "クイックアクセス",
-            blog: "RaiBari Blog ↗",
+            blog: "ライバリブログ ↗",
             search: "インターネット検索 ↗",
             email: "ask@raihanbarishifa.net"
         },
@@ -498,7 +498,7 @@ const content = {
         },
         blogTitle: "注目のブログ記事",
         blogCards: [
-            ["はじめに", "RaiBari Blog の公式紹介と執筆の背景。", "ブログ記事を読む ↗"],
+            ["はじめに", "ライバリブログの公式紹介と執筆の背景。", "ブログ記事を読む ↗"],
             ["語学学習でよくある間違い", "語学学習をより効果的にするための実践的なメモ。", "ブログ記事を読む ↗"],
             ["もしヌサンタラが「植民地化されなかった」なら", "代替歴史シナリオと現代への影響を探ります。", "ブログ記事を読む ↗"]
         ],
@@ -522,11 +522,11 @@ const content = {
         productCards: [
             ["インターネット検索", "1つのインターフェースからウェブをすばやく探索する検索ツール。", "製品を開く ↗"],
             ["書籍：国家建設の戦略と技法", "インドネシア向けの学習教材。", "製品を開く ↗"],
-            ["書籍「Celah Malaka」", "経済格差と戦略的機会をたどります。", "製品を開く ↗"],
+            ["書籍「マラッカの隙間」", "経済格差と戦略的機会をたどります。", "製品を開く ↗"],
             ["言語翻訳コース", "「プロフェッショナル翻訳フレームワーク」", "製品を開く ↗"],
             ["機能的リテラシーとコミュニケーションコース", "「グローバル・コミュニケーション・インテリジェンス」", "製品を開く ↗"]
         ],
-        contactTitle: "連絡先とソーシャルメディア",
+        contactTitle: "連絡先とSNS",
         contact: {
             email: "メール: ask@raihanbarishifa.net",
             facebook: "Facebook: Raihan Barishifa",
@@ -538,10 +538,10 @@ const content = {
         footer: "© 2026 Raihan Barishifa. All Rights Reserved."
     },
     ko: {
-        metaDescription: "Raihan Barishifa의 개인 포털: 기사, 프로젝트, 디지털 제품, 연락 채널을 더 쉽게 사용할 수 있는 한 페이지에 모았습니다.",
-        metaKeywords: "Raihan Barishifa, 지정학, 국가 개발, 블로그, 프로젝트, 제품",
-        ogDescription: "Raihan Barishifa의 개인 포털에 오신 것을 환영합니다. 기사, 프로젝트, 제품, 연락처로 빠르게 이동하세요.",
-        brandTitle: "Raihan Barishifa 포털",
+        metaDescription: "라이한 바리시파의 개인 포털: 기사, 프로젝트, 디지털 제품, 연락 채널을 더 쉽게 사용할 수 있는 한 페이지에 모았습니다.",
+        metaKeywords: "라이한 바리시파, 지정학, 국가 개발, 블로그, 프로젝트, 제품",
+        ogDescription: "라이한 바리시파의 개인 포털에 오신 것을 환영합니다. 기사, 프로젝트, 제품, 연락처로 빠르게 이동하세요.",
+        brandTitle: "라이한 바리시파 포털",
         aria: {
             mainNav: "기본 내비게이션",
             searchDrawer: "검색 패널",
@@ -555,14 +555,14 @@ const content = {
         searchPlaceholder: "검색...",
         hero: {
             eyebrow: "환영합니다",
-            title: "Raihan Barishifa의 모든 채널을 간결한 한 페이지에 담았습니다.",
+            title: "라이한 바리시파의 모든 채널을 간결한 한 페이지에 담았습니다.",
             body: "빠른 내비게이션을 사용하고 관련 콘텐츠를 검색하며, 여러 페이지를 열지 않고 블로그, 프로젝트, 디지털 제품으로 바로 이동하세요.",
             primary: "제품 보기",
             secondary: "문의하기"
         },
         quick: {
             title: "빠른 접근",
-            blog: "RaiBari Blog ↗",
+            blog: "라이바리블로그 ↗",
             search: "인터넷 검색 ↗",
             email: "ask@raihanbarishifa.net"
         },
@@ -576,7 +576,7 @@ const content = {
         },
         blogTitle: "추천 블로그 글",
         blogCards: [
-            ["시작의 글", "RaiBari Blog의 공식 소개와 글쓰기 배경입니다.", "블로그 글 읽기 ↗"],
+            ["시작의 글", "라이바리블로그의 공식 소개와 글쓰기 배경입니다.", "블로그 글 읽기 ↗"],
             ["언어 학습의 흔한 실수", "언어 학습 과정을 더 효과적으로 만드는 실용적인 기록입니다.", "블로그 글 읽기 ↗"],
             ["누산타라가 \"식민지화되지 않았다면\"", "대체 역사 시나리오와 오늘날의 영향을 탐구합니다.", "블로그 글 읽기 ↗"]
         ],
@@ -600,7 +600,7 @@ const content = {
         productCards: [
             ["인터넷 검색", "하나의 인터페이스에서 웹을 빠르게 탐색하는 검색 도구입니다.", "제품 열기 ↗"],
             ["책: 국가 건설의 전략과 기술", "인도네시아를 위한 학습 자료입니다.", "제품 열기 ↗"],
-            ["책 \"Celah Malaka\"", "경제적 불균형과 전략적 기회를 추적합니다.", "제품 열기 ↗"],
+            ["책 \"말라카의틈새\"", "경제적 불균형과 전략적 기회를 추적합니다.", "제품 열기 ↗"],
             ["언어 번역 과정", "\"전문 번역 프레임워크\"", "제품 열기 ↗"],
             ["기능적 문해력 및 커뮤니케이션 과정", "\"글로벌 커뮤니케이션 지능\"", "제품 열기 ↗"]
         ],
